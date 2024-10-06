@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.banner {
+    width: 100%;
+    background-color: rgb(132, 185, 255);
+    height: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.logo {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+header img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+}
+
+body {
+    background-color: rgb(216, 233, 255);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+.header-image {
+    width: 100%;
+    height: 100%;
+}
+
+.top-section {
+    width: 100%;
+    background-color: rgb(132, 185, 255);
+    height: 100px;
+    float: left;
+}
+
+/* Main Content Section */
+.main-content {
+    width: 100%;
+    background-color: rgb(216, 233, 255);
+    height: 1000px;
+    float: left;
+}
+
+.contenido {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-contenido {
+    width: 80%;
+    background-color: rgb(104, 159, 231);
+    height: 700px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.form-campo {
+    
+    position: relative;
+    width: 65%;
+    height: 40px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.input-field {
+    height: 40px;
+}
+
+.date-input {
+    width: 15%;
+}
+
+.label {
+    position: relative;
+    margin-left: 50px;
+}
+
+.input-container {
+    position: relative;
+}
+
+/* Footer Sections */
+.footer-light {
+    width: 100%;
+    background-color: rgb(216, 233, 255);
+    height: 200px;
+    float: left;
+}
+
+.footer-dark {
+    width: 100%;
+    background-color: rgb(70, 106, 161);
+    height: 1000px;
+    float: left;
+}
+
+.sidebar {
+    width: 40%;
+    background-color: rgb(193, 209, 229);
+    height: 800px;
+    margin-top: 7%;
+    margin-left: 60%;
+}
+
+.comment-section {
+    width: 100%;
+    background-color: rgb(216, 233, 255);
+    height: 600px;
+    float: left;
+}
+
+.comment-container {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-top: 2%;
+}
