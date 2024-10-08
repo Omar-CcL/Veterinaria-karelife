@@ -1,64 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-div.banner {
-  width: 100%;
-  background-color: rgb(132, 185, 255);
-  height: 70px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-nav {
-  width: 100%;
-}
-
-nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  margin: 0 15px;
-}
-
-.logo {
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #007bff;
-}
-
-header img {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  position: relative;
-}
-
-body {
-  background-color: rgb(216, 233, 255);
-  margin: 0;
-  padding: 0;
-}
-
 h1,
 h2 {
   font-family: Arial, sans-serif;
@@ -164,36 +103,36 @@ h2 {
   margin-top: 2%;
 }
 
-.footer-dark h1{
+.footer-dark h1 {
   font-size: 22px;
   color: white;
   width: 60%;
   margin: 20px 15px;
 }
 
-.footer-dark ul{
+.footer-dark ul {
   width: 40%;
 }
 
-.sidebar p{
+.sidebar p {
   text-align: center;
   margin: 20px;
   font-weight: bold;
 }
 
-.sidebar h1{
+.sidebar h1 {
   margin: 0;
   width: 100%;
   text-align: center;
   color: black;
 }
 
-.caja-texto{
+.caja-texto {
   width: 80%;
   height: 500px;
 }
 
-.comment-container button{
+.comment-container button {
   width: 15%;
   height: 100px;
   background-color: #466AA1;
