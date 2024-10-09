@@ -1,3 +1,6 @@
+
+package modelo2;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 
