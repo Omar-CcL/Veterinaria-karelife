@@ -18,17 +18,28 @@ img.fullWidthHeight {
 }
 
 .lgato{
-  border-radius:10px;
-  background:red;
-  text-align:center;
-  height:20px;
+  position: absolute;
+  background-color: rgb(104, 159, 231);
+  border-radius: 10px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: 13%;
+  line-height: 50px
 }
 
 .lperro{
-  background:red;
-  width:200px;
-  text-align:center;
-  height: 50%;
+  position: absolute;
+  background-color: rgb(104, 159, 231);
+  border-radius: 10px;
+  width: 20%;
+  height: 50px;
+  text-align: center;
+  margin-top: 30%;
+  margin-left: 65%;
+  line-height: 50px
+  
 }
 .proc2 img{
   width: 50%;

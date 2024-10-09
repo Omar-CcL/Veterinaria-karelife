@@ -29,7 +29,7 @@ section {
 
 .superposicion {
   position: absolute;
-  top: 50%;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%); 
   width: 65%;
@@ -39,18 +39,20 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
+  
 }
 
 .superposicion h1 {
   font-size: 3rem;
-  margin: 0;
+  margin: 0px;
 }
 
 .superposicion p {
   font-size: 1.5rem;
   line-height: 1.6;
   margin: 20px 0;
+  line-height: 50px;
 }
 
 h1 {
