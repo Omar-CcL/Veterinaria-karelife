@@ -6,6 +6,36 @@ img.fullWidthHeight {
 #Productos .cuadro h2 {
   padding: 50px;
 }
+.container img{
+  width: 100%;
+  float: left;
+}
+.proc1 img{
+  
+  width: 50%;
+  height:50%;
+  
+}
+
+.lgato{
+  border-radius:10px;
+  background:red;
+  text-align:center;
+  height:20px;
+}
+
+.lperro{
+  background:red;
+  width:200px;
+  text-align:center;
+  height: 50%;
+}
+.proc2 img{
+  width: 50%;
+  height: 50%;
+  float: right;
+   
+}
 
 #Alimentacion .cuadro {
   background-position: center center;

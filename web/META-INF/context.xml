@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path="/karelife"/>
+<Context path="/karelife">
+  <Resource name="jdbc/ClinicaVeterinaria"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+            url="jdbc:sqlserver://localhost;databaseName=ClinicaVeterinaria"
+            username="tu_usuario"
+            password="tu_contraseña"
+            maxActive="20"
+            maxIdle="10"
+            maxWait="-1"/>
+</Context>

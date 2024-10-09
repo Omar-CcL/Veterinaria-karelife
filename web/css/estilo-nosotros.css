@@ -1,3 +1,4 @@
+
 section {
   width: 50%;
 }
@@ -29,10 +30,27 @@ section {
 .superposicion {
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
   width: 65%;
-  height: 75%;
   background-color: rgba(255, 240, 222, 0.5);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.superposicion h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.superposicion p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin: 20px 0;
 }
 
 h1 {
