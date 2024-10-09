@@ -4,7 +4,7 @@
             auth="Container"
             type="javax.sql.DataSource"
             driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-            url="jdbc:sqlserver://localhost;databaseName=ClinicaVeterinaria"
+            url="jdbc:sqlserver://localhost:1433;databaseName=ClinicaVeterinaria"
             username="tu_usuario"
             password="tu_contraseña"
             maxActive="20"

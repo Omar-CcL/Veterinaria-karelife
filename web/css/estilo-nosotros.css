@@ -46,6 +46,7 @@ section {
 .superposicion h1 {
   font-size: 3rem;
   margin: 0px;
+  font-family: Century Gothic;
 }
 
 .superposicion p {
@@ -53,6 +54,7 @@ section {
   line-height: 1.6;
   margin: 20px 0;
   line-height: 50px;
+  
 }
 
 h1 {
@@ -98,7 +100,11 @@ p {
 }
 
 .titulo {
+  position:absolute;
   color: rgb(255, 255, 255);
+  font-family: Century Gothic;
+  margin-left: 45%;
+  line-height: 60px;
 }
 
 .fondo-imagen-5 {
@@ -142,6 +148,7 @@ p {
   left: 35%;
   width: 60%;
   height: 55%;
+  font-family: Century Gothic;
 }
 
 .superposicion3 {
@@ -150,6 +157,7 @@ p {
   left: 5%;
   width: 60%;
   height: 55%;
+  font-family: Century Gothic;
 }
 
 .superposicion4 {
@@ -158,6 +166,7 @@ p {
   left: 4%;
   width: 45%;
   height: 55%;
+  font-family: Century Gothic;
 }
 
 .superposicion5 {
@@ -166,6 +175,7 @@ p {
   left: 51%;
   width: 45%;
   height: 55%;
+  font-family: Century Gothic;
 }
 
 .superposicion6 {
@@ -174,6 +184,7 @@ p {
   left: 7%;
   width: 45%;
   height: 55%;
+  font-family: Century Gothic;
 }
 
 .superposicion7 {
@@ -182,4 +193,5 @@ p {
   left: 50%;
   width: 45%;
   height: 55%;
+  font-family: Century Gothic;
 }

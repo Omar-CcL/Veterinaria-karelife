@@ -12,6 +12,7 @@ div.banner {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Century Gothic;
 }
 
 nav {

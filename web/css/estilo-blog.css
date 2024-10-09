@@ -12,17 +12,20 @@ div.overlay {
   background-color: rgba(160, 176, 228, 0.5);
   text-align: center;
   font-family: Century Gothic;
+  line-height: 55px;
 }
 .banner2{
   width: 100%;
-  margin-top:17%
-  
+  margin-top:16%
+   
 }
+
 div.section1 {
   width: 100%;
   background-color: rgb(216, 233, 255);
   height: 450px;
   float: left;
+  
 }
 
 img.leftImage {
@@ -100,9 +103,9 @@ p {
   height: 120px;
   background-color: #446aa2;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding-bottom: 70px;
+  font-family: Century Gothic;
 }
 
 .banner3 {
@@ -110,21 +113,25 @@ p {
   top: 167.8%;
   height: 66%;
   background-color: #d5f2ac;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   display: flex;
+  font-family: Century Gothic;
+  margin-top:-13%
 }
 
 .textito h3 {
   font-size: 28px;
   margin-left: 30px;
   margin-top: 30px;
+  
 }
+
 
 .textito p {
   font-size: 18px;
   margin-left: 30px;
   margin-right: 60px;
+  line-height: 55px;
 }
 
 .img3 {
@@ -140,9 +147,10 @@ p {
   top: 250%;
   height: 66%;
   background-color: #f5b88c;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   display: flex;
+  font-family: Century Gothic;
+  margin-top:-22%;
 }
 
 .img4 {
@@ -159,7 +167,9 @@ p {
   text-align: right;
   margin-left: 30px;
   margin-right: 40px;
+  
 }
+
 
 .textito2 p {
   font-size: 18px;
@@ -167,6 +177,8 @@ p {
   text-align: justify;
   text-align: right;
   margin-left: 200px;
+  font-family: Century Gothic;
+  line-height: 55px;
 }
 
 .banner5 {
@@ -174,9 +186,10 @@ p {
   top: 330%;
   height: 66%;
   background-color: #f3c8e8;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   display: flex;
+  font-family: Century Gothic;
+  margin-top:-30%
 }
 
 .textito3 h3 {
@@ -189,6 +202,8 @@ p {
   font-size: 18px;
   margin-left: 30px;
   margin-right: 90px;
+  font-family: Century Gothic;
+  line-height: 55px;
 }
 
 .img5 {
@@ -206,9 +221,13 @@ p {
   height: 50px;
   background-color: #446aa2;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
   padding-bottom: 70px;
+  font-family: Century Gothic;
+  margin-top:-30%
+}
+.banner6 h2{
+  line-height: 1%;
 }
 
 .banner8 {
@@ -216,10 +235,11 @@ p {
   top: 420%;
   height: 40%;
   background-color: #eeeebe;
-  font-family: Arial, Helvetica, sans-serif;
   color: rgb(0, 0, 0);
   display: flex;
   width: 50%;
+  font-family: Century Gothic;
+  margin-top:-35%;
 }
 
 .textito4 h3 {
@@ -233,6 +253,7 @@ p {
   font-size: 16px;
   margin-left: 30px;
   text-align: left;
+  line-height: 55px;
 }
 
 .img6 {
@@ -249,11 +270,12 @@ p {
   top: 470%;
   height: 40%;
   background-color: #eeeebe;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Century Gothic;
   color: rgb(0, 0, 0);
   display: flex;
   width: 50%;
   margin-left: 50%;
+  margin-top:-35%;
 }
 
 .img7 {
@@ -279,4 +301,6 @@ p {
   text-align: justify;
   text-align: right;
   margin-left: 200px;
+  font-family: Century Gothic;
+  line-height: 55px;
 }
