@@ -1,6 +1,6 @@
 h1,
 h2 {
-  font-family: Arial, sans-serif;
+  font-family: Century Gothic;
 }
 
 .header-image {
@@ -35,6 +35,8 @@ h2 {
   margin-left: 10%;
   margin-top: 2%;
   position: absolute;
+  border-radius: 20px
+  
 }
 
 .form-campo {
@@ -43,20 +45,27 @@ h2 {
   height: 40px;
   margin-left: 50px;
   text-align: center;
+  border-radius: 15px
+  
 }
 
 .input-field {
   height: 40px;
+  margin-top: -50%;
+  margin-left: 22%;
 }
 
 .date-input {
   width: 15%;
+  margin-top: -50%;
+  margin-left: 22%;
+
 }
 
 .label {
   position: relative;
-  margin-left: 50px;
-  margin-top: 6%;
+  margin-left: 30px;
+  margin-top: 5%;
 }
 
 .input-container {
@@ -76,25 +85,26 @@ h2 {
   background-color: rgb(70, 106, 161);
   height: 1000px;
   float: left;
+  font-family: Century Gothic;
+ 
 }
 
 .sidebar {
   width: 40%;
   background-color: rgb(193, 209, 229);
   height: 800px;
-  margin-top: -25%;
-  margin-left: 60%;
+  margin-top: -50%;
+  margin-left: 58%;
   color: black;
   font-size: 26px;
   overflow: auto;
+  font-family: Century Gothic;
+  justify-content:center;
+  align-items:center;
+  display: flex;
+  flex-direction:column;
 }
 
-.comment-section {
-  width: 100%;
-  background-color: rgb(216, 233, 255);
-  height: 600px;
-  float: left;
-}
 
 .comment-container {
   width: 80%;
@@ -127,14 +137,3 @@ h2 {
   color: black;
 }
 
-.caja-texto {
-  width: 80%;
-  height: 500px;
-}
-
-.comment-container button {
-  width: 15%;
-  height: 100px;
-  background-color: #466AA1;
-  border-radius: 25px;
-}
