@@ -5,15 +5,19 @@ img.fullWidthHeight {
 
 div.overlay {
   position: absolute;
-  top: 61%;
+  top: 45%;
   left: 22%;
   width: 60%;
   height: 75%;
   background-color: rgba(160, 176, 228, 0.5);
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Century Gothic;
 }
-
+.banner2{
+  width: 100%;
+  margin-top:17%
+  
+}
 div.section1 {
   width: 100%;
   background-color: rgb(216, 233, 255);

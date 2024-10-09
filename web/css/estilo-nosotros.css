@@ -39,12 +39,14 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin-top: 10px;
+  
 }
 
 p {
   font-size: 18px;
   text-align: center;
   margin: 40px;
+  font-family: Century Gothic;
 }
 
 .fondo-imagen-3 {
@@ -82,17 +84,20 @@ p {
 .fondo-imagen-5 {
   width: 100%;
   background-color: rgb(216, 233, 255);
-  height: 600px;
+  height: 800px;
+  
 }
 
 .imagen-5 {
   float: left;
   margin-left: 20%;
+  margin-top:2%;
 }
 
 .imagen-6 {
   float: right;
   margin-right: 20%;
+  margin-top:2%;
 }
 
 .fondo-imagen-6 {
@@ -129,23 +134,23 @@ p {
 
 .superposicion4 {
   position: absolute;
-  top: 395%;
-  left: 7%;
+  top: 425%;
+  left: 4%;
   width: 45%;
   height: 55%;
 }
 
 .superposicion5 {
   position: absolute;
-  top: 395%;
-  left: 48%;
+  top: 425%;
+  left: 51%;
   width: 45%;
   height: 55%;
 }
 
 .superposicion6 {
   position: absolute;
-  top: 500%;
+  top: 545%;
   left: 7%;
   width: 45%;
   height: 55%;
@@ -153,8 +158,8 @@ p {
 
 .superposicion7 {
   position: absolute;
-  top: 500%;
-  left: 48%;
+  top: 545%;
+  left: 50%;
   width: 45%;
   height: 55%;
 }
