@@ -1,5 +1,5 @@
 
-package modelo;
+package modelo2;
 
 public class Especie extends AnimalPrototype {
     

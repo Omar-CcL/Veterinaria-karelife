@@ -1,12 +1,12 @@
 
-package control;
+package control2;
 
 import java.time.LocalDateTime;
-import modelo.CitaService;
-import modelo.Cliente;
-import modelo.ClienteService;
-import modelo.Mascota;
-import modelo.MascotaService;
+import modelo2.CitaService;
+import modelo2.Cliente;
+import modelo2.ClienteService;
+import modelo2.Mascota;
+import modelo2.MascotaService;
 
 public class VeterinaryFacade {
     private CitaService citaService;

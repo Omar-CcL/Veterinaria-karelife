@@ -1,5 +1,5 @@
 
-package control;
+package control2;
 
 public class ServicioController {
     // Si tuvieras un ServicioService, podrías usarlo aquí

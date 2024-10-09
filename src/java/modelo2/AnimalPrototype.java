@@ -1,5 +1,5 @@
 
-package modelo;
+package modelo2;
 
 public abstract class AnimalPrototype implements Cloneable {
     protected String nombre;

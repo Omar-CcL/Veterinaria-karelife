@@ -1,8 +1,8 @@
 
-package control;
+package control2;
 
-import modelo.Mascota;
-import modelo.MascotaService;
+import modelo2.Mascota;
+import modelo2.MascotaService;
 
 public class MascotaController {
     
