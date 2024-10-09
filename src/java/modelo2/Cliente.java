@@ -2,19 +2,29 @@
 package modelo2;
 
 public class Cliente {
-    private int clienteId;
+    private int id;
     private String nombre;
     private String email;
     private String telefono;
     private String direccion;
+    private int estadoId;
 
-    // Getters y Setters
-    public int getClienteId() {
-        return clienteId;
+    // Constructor, getters y setters
+    public Cliente(int id, String nombre, String email, String telefono, String direccion, int estadoId) {
+        this.id = id;
+        this.nombre = nombre;
+        this.email = email;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.estadoId = estadoId;
     }
 
-    public void setClienteId(int clienteId) {
-        this.clienteId = clienteId;
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -48,4 +58,13 @@ public class Cliente {
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
+
+    public int getEstadoId() {
+        return estadoId;
+    }
+
+    public void setEstadoId(int estadoId) {
+        this.estadoId = estadoId;
+    }
+    
 }

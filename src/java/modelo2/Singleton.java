@@ -9,11 +9,11 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
 
-public class DatabaseConnection {
-    private static DatabaseConnection instance;
+public class Singleton {
+    private static Singleton instance;
     private DataSource dataSource;
 
-    private DatabaseConnection() {
+    private Singleton() {
         try {
             Context initContext = new InitialContext();
             Context envContext = (Context) initContext.lookup("java:comp/env");
@@ -23,9 +23,9 @@ public class DatabaseConnection {
         }
     }
 
-    public static DatabaseConnection getInstance() {
+    public static Singleton getInstance() {
         if (instance == null) {
-            instance = new DatabaseConnection();
+            instance = new Singleton();
         }
         return instance;
     }
