@@ -1,8 +1,8 @@
 
-package control2;
+package control;
 
-import modelo2.Cliente;
-import modelo2.ClienteService;
+import modelo.Cliente;
+import modelo.ClienteService;
 
 public class ClienteController {
 

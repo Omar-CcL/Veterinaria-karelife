@@ -1,5 +1,5 @@
 
-package modelo2;
+package modelo;
 
 import java.time.LocalDateTime;
 

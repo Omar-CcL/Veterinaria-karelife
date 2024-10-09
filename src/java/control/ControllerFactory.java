@@ -1,5 +1,5 @@
 
-package control2;
+package control;
 
 public class ControllerFactory {
     

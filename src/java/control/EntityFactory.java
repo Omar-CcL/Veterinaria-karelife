@@ -1,9 +1,9 @@
 
-package control2;
+package control;
 
-import modelo2.Cliente;
-import modelo2.Mascota;
-import modelo2.Servicio;
+import modelo.Cliente;
+import modelo.Mascota;
+import modelo.Servicio;
 
 public class EntityFactory {
     

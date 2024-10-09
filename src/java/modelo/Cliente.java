@@ -1,5 +1,5 @@
 
-package modelo2;
+package modelo;
 
 public class Cliente {
     private int clienteId;

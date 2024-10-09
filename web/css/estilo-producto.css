@@ -48,11 +48,29 @@ img.fullWidthHeight {
   width: 50%;
   height: 50%;
   float: right;
-   
+}
 #Alimentacion{
   background-color: #f4f4f4; /* Color de fondo */
   padding: 40px; /* Espaciado interno alrededor de la sección */
   text-align: center; 
+  }
+.Precio1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Crear 4 columnas */
+    gap: 20px; /* Espacio entre las columnas */
+    justify-items: center; /* Centrar los elementos dentro de cada cuadro */
+  }
+.cuadro {
+    background-color: #fff; /* Fondo blanco */
+    padding: 15px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar efecto de profundidad */
+    text-align: center;
+    transition: transform 0.3s ease; /* Transición para el hover */
+  }
+.cuadro img {
+    border-radius: 50%; /* Bordes redondeados en las imágenes */
+    margin-bottom: 10px;
   }
 
 .AlimentacionL{
@@ -64,4 +82,15 @@ img.fullWidthHeight {
   text-align: center;
   margin-top: 33%;
   line-height: 120px;
+}
+.cuadro h3 {
+  font-size: 18px;
+  color: #ff6347; /* Color de texto para los precios */
+  font-weight: bold;
+}
+
+/* Efecto hover para cada cuadro de producto */
+.cuadro:hover {
+  transform: scale(1.05); /* Agrandar ligeramente el cuadro cuando el mouse pasa sobre él */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más fuerte en hover */
 }
