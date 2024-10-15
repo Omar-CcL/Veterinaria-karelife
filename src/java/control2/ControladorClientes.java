@@ -18,7 +18,6 @@ public class ControladorClientes {
 
     public void agregarCliente(Cliente cliente) throws SQLException {
         factoryModelo.getClientesModelo().ejecutarSP("Insert", cliente, null);
-        a
     }
 
     public void actualizarCliente(Cliente cliente) throws SQLException {
